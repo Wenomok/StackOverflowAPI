@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16C67" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="SOQuestionDataModel" representedClassName="SOQuestionDataModel" syncable="YES" codeGenerationType="class">
+        <attribute name="answerCountQuestion" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="autorQuestion" attributeType="String" syncable="YES"/>
+        <attribute name="bodyTextQuestion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idQuestion" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="lastEditDateQuestion" attributeType="String" syncable="YES"/>
+        <attribute name="scoreQuestion" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="titleQuestion" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="SOQuestionDataModel" positionX="-63" positionY="-18" width="128" height="150"/>
+    </elements>
+</model>
