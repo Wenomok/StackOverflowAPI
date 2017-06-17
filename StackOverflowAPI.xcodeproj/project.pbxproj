@@ -23,33 +23,18 @@
 		6A6E56071E9D6BD900AC3644 /* SOQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E56061E9D6BD900AC3644 /* SOQuestion.m */; };
 		6A6E56141E9E518D00AC3644 /* SOConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E56131E9E518D00AC3644 /* SOConnection.m */; };
 		6A7808C71EAF5860008184C3 /* UIColor+StackOverflow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7808C61EAF5860008184C3 /* UIColor+StackOverflow.m */; };
-		6A98071C1ED1C26B0058D89A /* CoreData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6AAB02911EC724AA00D6191A /* CoreData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6A98072F1ED30EAF0058D89A /* defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A98072E1ED30EAF0058D89A /* defaults.plist */; };
 		6A9807351ED310490058D89A /* questions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A9807341ED310490058D89A /* questions.txt */; };
 		6A99A5411EB1F75000C1926F /* SOActivityIndicatorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A99A5401EB1F75000C1926F /* SOActivityIndicatorTableViewCell.m */; };
 		6A99A5441EB8E7F800C1926F /* NSMutableAttributedString+StackOverflow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A99A5431EB8E7F800C1926F /* NSMutableAttributedString+StackOverflow.m */; };
-		6AAB02921EC724AA00D6191A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AAB02911EC724AA00D6191A /* CoreData.framework */; };
 		6AAB02951EC7260B00D6191A /* SODataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB02931EC7260B00D6191A /* SODataModel.xcdatamodeld */; };
 		6ABF74671EBB4B5A00E52D48 /* office012.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6ABF74661EBB4B5A00E52D48 /* office012.wav */; };
 		6ABF746F1EBC6ECA00E52D48 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF746E1EBC6ECA00E52D48 /* SWRevealViewController.m */; };
 		6ABF74731EBCD29000E52D48 /* SOMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF74721EBCD29000E52D48 /* SOMenuTableViewController.m */; };
 		6AD0F4361EC35AAF0013CD0D /* SORevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0F4351EC35AAF0013CD0D /* SORevealViewController.m */; };
 		6AD0F4391EC367CF0013CD0D /* NSString+StackOverflow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0F4381EC367CF0013CD0D /* NSString+StackOverflow.m */; };
+		8415B2961EF435B300D76DF2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AAB02911EC724AA00D6191A /* CoreData.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		6A98071D1ED1C26B0058D89A /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				6A98071C1ED1C26B0058D89A /* CoreData.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6A041E631EBA390D00CA7F71 /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
@@ -107,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AAB02921EC724AA00D6191A /* CoreData.framework in Frameworks */,
+				8415B2961EF435B300D76DF2 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +323,6 @@
 				6A6E55C21E9CE67D00AC3644 /* Sources */,
 				6A6E55C31E9CE67D00AC3644 /* Frameworks */,
 				6A6E55C41E9CE67D00AC3644 /* Resources */,
-				6A98071D1ED1C26B0058D89A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -547,7 +531,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = ZK943LB6V2;
 				INFOPLIST_FILE = StackOverflowAPI/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = whatislove.StackOverflowAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -564,7 +548,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = ZK943LB6V2;
 				INFOPLIST_FILE = StackOverflowAPI/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = whatislove.StackOverflowAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
