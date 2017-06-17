@@ -261,7 +261,7 @@
         newQuestion.titleQuestion = question.titleQuestion;
         newQuestion.bodyTextQuestion = question.bodyTextQuestion;
         newQuestion.scoreQuestion = question.scoreQuestion;
-        NSLog(@"%@", newQuestion);
+//        NSLog(@"%@", newQuestion);
     }
     
     NSArray<SOQuestionDataModel *> *array = [self.fetchedResultsController fetchedObjects];
